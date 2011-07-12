@@ -5,5 +5,8 @@ def callback(directive, options):
     print "\tDirective: " + directive
     print "\tText: " + options["text"]
 
-print kns.raise_event("test", "started", "a163x36", callback, True)
+params = {'text': 'Hello, there!'}
+result = kns.raise_event("test", "started", "a163x36", params, callback, True)
+
+print "\nThe raw directives were the following: \n%s" % result
 

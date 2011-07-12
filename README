@@ -4,3 +4,5 @@ This library will model the Kynetx Network Service API, documented here: http://
 
 Developed independent of Kynetx, Inc.
 
+The a163x36 directory contains the source code of the ruleset used to test this library.
+
